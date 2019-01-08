@@ -5,7 +5,7 @@
     "type": "cppdbg",
     "request": "launch",
     "targetArchitecture": "arm",
-    "program": "${workspaceRoot}/BUILD/DISCO_F429ZI/GCC_ARM-DEBUG/Timer.elf",
+    "program": "${workspaceRoot}/BUILD/DISCO_F429ZI/GCC_ARM-DEBUG/${workspaceFolderBasename}.elf",
     "args": [],
     "stopAtEntry": false,
     "cwd": "${workspaceRoot}",
@@ -23,7 +23,7 @@
         "ignoreFailures": false
       },
       {
-        "text": "-file-exec-and-symbols ${workspaceRoot}/BUILD/DISCO_F429ZI/GCC_ARM-DEBUG/Timer.elf",
+        "text": "-file-exec-and-symbols ${workspaceRoot}/BUILD/DISCO_F429ZI/GCC_ARM-DEBUG/${workspaceFolderBasename}.elf",
         "description": "load file",
         "ignoreFailures": false
       },
